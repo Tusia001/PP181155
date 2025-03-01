@@ -5,7 +5,7 @@
 int main()
 {
     int a = 3, b = 10;
-    int wynik = (int) pow(a + b, 2.0);
+    int wynik = (a+b)*(a+b);
     printf("%d", wynik);
     return 0;
 }
