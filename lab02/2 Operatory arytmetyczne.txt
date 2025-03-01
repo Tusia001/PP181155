@@ -1,0 +1,19 @@
+2 Operatory arytmetyczne
+1. Napisz program, który oblicza resztę z dzielenia sumy dwóch liczb całkowitych przez trzecią liczbę całkowitą.
+2. Stwórz program, który oblicza różnicę kwadratów dwóch podanych liczb całkowitych.
+3. Opracuj program, który oblicza iloczyn różnicy dwóch liczb całkowitych i trzeciej liczby całkowitej.
+4. Zaprojektuj program, który oblicza średnią geometryczną bezwzględnych wartości trzech podanych liczb całkowitych.
+5. Napisz program, który oblicza kwadrat sumy dwóch podanych liczb całkowitych.
+6. Stwórz program, który oblicza sumę kwadratów trzech podanych liczb całkowitych.
+7. Opracuj program, który oblicza, ile razy jedna podana liczba całkowita mieści się w drugiej podanej liczbie całkowitej.
+8. Zaprojektuj program, który oblicza kwadrat różnicy dwóch podanych liczb całkowitych.
+9. Napisz program, który oblicza iloraz sumy dwóch liczb całkowitych przez ich różnicę.
+10. Stwórz program, który oblicza sumę trzech kolejnych liczb całkowitych, zaczynając od podanej liczby całkowitej.
+11. Znajdź średnią arytmetyczną trzech liczb zmiennoprzecinkowych.
+12. Oblicz wartość wyrażenia 1 / ( 1/a + 1/b + 1/c) , gdzie 𝑎, 𝑏, 𝑐 są różne od zera.
+13. Wylicz wartość 𝑒^𝑥 dla małych wartości 𝑥 np. ‖𝑥‖ < 0.01 przybliżając 𝑒^𝑥 jako 1 + 𝑥, bez użycia funkcji eksponencjalnych.
+14. Oblicz pole trójkąta o bokach 𝑎, 𝑏 i kącie między nimi 𝐶 w stopniach, używając wzoru 0.5 ⋅ 𝑎 ⋅ 𝑏 ⋅ sin 𝐶, przyjmując sin 𝐶 ≈ 𝐶 dla małych kątów w radianach.
+15. Oblicz (3)√x  dla małych wartości 𝑥 np. ‖𝑥‖ < 0.01 przybliżając (3)√x 𝑥 ≈ 1 + 1/3𝑥, bez użycia
+funkcji pierwiastkowania.
+
+Twórca zadań: https://piojas.pl/
