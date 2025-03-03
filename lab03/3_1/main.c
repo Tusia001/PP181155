@@ -3,6 +3,12 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    int a;
+    printf("Wprowadz liczbe: ");
+    scanf("%d", &a);
+
+    a == 0 ? printf("liczba rowna 0") : a > 0 ? printf("Liczba dodatnia") : printf("Liczba ujemna");
+
+
     return 0;
 }
