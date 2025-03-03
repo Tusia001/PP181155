@@ -1,3 +1,4 @@
+/* Marta Szczepañska - DS2 - 181155 - WARIANT 104 */
 #include <stdio.h>
 #include <stdlib.h>
 
