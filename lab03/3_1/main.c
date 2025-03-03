@@ -7,7 +7,7 @@ int main()
     printf("Wprowadz liczbe: ");
     scanf("%d", &a);
 
-    a == 0 ? printf("liczba rowna 0") : a > 0 ? printf("Liczba dodatnia") : printf("Liczba ujemna");
+    a == 0 "liczba równa 0" : a > 0 ? printf("Liczba dodatnia") : printf("Liczba ujemna");
 
 
     return 0;
