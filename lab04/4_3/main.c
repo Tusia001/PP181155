@@ -13,7 +13,7 @@ int main()
 {
     int liczba = 11, pozycja1 = 3, pozycja2 = 2;
 
-    int bit = (liczba >> pozycja1) & 1;
+    int bit = ((liczba &(1 << pozycja1))>> pozycja1) & 1;
     printf("%d\n", bit);
 
     int bit2 = (liczba >> pozycja2) & 1;
