@@ -1,3 +1,4 @@
+/* WA¯NE!!!! */
 /*Napisz program, który prosi u¿ytkownika o wprowadzenie dodatniej liczby
 ca³kowitej n, a nastêpnie oblicza i wyœwietla
  (czêœæ ca³kowita/pod³oga pierwiastka kwadratowego). */
@@ -11,11 +12,11 @@ int main()
     printf("Podaj dodatnia liczbe calkowita: ");
     scanf("%d", &liczba);
 
-    while ((i + 1) * (i + 1) <= liczba) {
+    while (i*i <= liczba) {
         i++;
     }
 
-    printf("floor(sqrt(%d)) = %d\n", liczba, i);
+    printf("floor(sqrt(%d)) = %d\n", liczba, i-1);
     return 0;
 }
 
