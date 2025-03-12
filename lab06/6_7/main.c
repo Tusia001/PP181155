@@ -1,3 +1,4 @@
+/*WAZNE */
 /*Napisz program, który prosi u¿ytkownika o wprowadzenie dodatniej
 liczby ca³kowitej n, a nastêpnie oblicza i wyœwietla
 (sufit pierwiastka kwadratowego). */
