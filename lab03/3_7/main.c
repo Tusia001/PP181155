@@ -20,10 +20,10 @@ int main()
       if (delta > 0) {
         x1 = (-b - sqrt(delta)) / (2 * a);
         x2 = (-b + sqrt(delta)) / (2 * a);
-        printf("Dwa rozwiazania: x1 = %.2f, x2 = %.2f\n", x1, x2);
+        printf("x1 = %.2f, x2 = %.2f\n", x1, x2);
     } else if (delta == 0) {
         x1 = -b / (2 * a);
-        printf("Jedno rozwiazanie: x = %.2f\n", x1);
+        printf("x = %.2f\n", x1);
     } else {
         float realPart = -b / (2 * a);
         float imagPart = sqrt(-delta) / (2 * a);

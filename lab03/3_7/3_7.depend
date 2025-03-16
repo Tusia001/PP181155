@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1742071310 source:c:\users\martasz\documents\github\pp181155\lab03\3_7\main.c
+1742081495 source:c:\users\martasz\documents\github\pp181155\lab03\3_7\main.c
 	<stdio.h>
 	<stdlib.h>
+	<math.h>
 
