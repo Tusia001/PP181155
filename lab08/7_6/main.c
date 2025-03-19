@@ -1,0 +1,27 @@
+/*Napisz funkcjê calculatePowerOfTwo, której argumentem jest liczba ca³kowita. Funkcja ma zwracaæ wartoœæ 2^n. Stwórz przypadek testowy. */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+float calculatePowerOfTwo(int n){
+    if (n>=0){
+        int temp=1;
+        for(int i=1;i<=n;i++){
+            temp *=2;
+        }
+        return temp;
+    }
+    float temp=1;
+    for(int i=-1;i>=n;i--){
+        temp /=2;
+    }
+    return temp;
+}
+
+int main()
+{
+    printf("%f\n", calculatePowerOfTwo(0));
+    printf("%f\n", calculatePowerOfTwo(2));
+    printf("%f\n", calculatePowerOfTwo(-2));
+    return 0;
+}
