@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 void countFunctionCalls() {
-    static int callCount = 0;
-    callCount++;
-    printf("%d\n", callCount);
+    int licznik = 0;
+    licznik++;
+    printf("%d\n", licznik);
 }
 
 int main() {
