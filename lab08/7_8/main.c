@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 void countFunctionCalls() {
-    int licznik = 0;
+    static int licznik = 0;
     licznik++;
     printf("%d\n", licznik);
 }
