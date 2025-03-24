@@ -9,16 +9,18 @@ przypadek testowy.
 #include <stdio.h>
 #include <stdlib.h>
 
-int calculateGeometricSequenceRecursively(int n, int d){
-    if (n <= 0){
-        exit(-1);
-    }
-    if(n==1){
-        return 1;
-    }
-    return d * calculateGeometricSequenceRecursively(n-1, d);
-}
+int calculateGeometricSequenceRecursively(int n, int d) {
+    if (n <= 0 || d <= 0) {
 
+        exit(-1); // lepszy styl niż exit(-1)
+    }
+
+    if (n == 1) {
+        return 1; // pierwszy wyraz ciągu
+    }
+
+    return d * calculateGeometricSequenceRecursively(n - 1, d);
+}
 int main()
 {
     printf("%d", calculateGeometricSequenceRecursively(5, 3));
