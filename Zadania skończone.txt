@@ -16,7 +16,7 @@ Zadania skończone
 7. Funkcje
 
 8. Wskaźniki
-	1, 2 
+	1, 2, 3 - lab10
 
 
 16. Zadania różne.
