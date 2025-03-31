@@ -3,14 +3,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int sumSqrs(const int *num1; const *int num2){
-    return (*num1)**(*num1) + (*num2)**(*num2);
+int sumSqrs(const int *num1, int *const num2){
+    return (*num1)*(*num1) + (*num2)*(*num2);
 }
 
 int main()
 {
-    int num1 = 3;
-    int num2 = 4;
-    printf("%d", sumSqrs(&num1, &num2));
+    int x = 3;
+    int y = 4;
+    int wynik = sumSqrs(&x, &y);
+    printf("%d\n", wynik);
+    printf("%d\n", sumSqrs(&x, &y));
     return 0;
 }
