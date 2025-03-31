@@ -1,4 +1,4 @@
-/* Napisz funkcjê initFloats, która nie przyjmuje argumentów i rezerwuje blok trzech
+/* LABY - Napisz funkcjê initFloats, która nie przyjmuje argumentów i rezerwuje blok trzech
 zmiennych typu float, ustawiaj¹c ich wartoœci kolejno na 4.5, 2.3, -4.2. Funkcja zwraca
 wskaŸnik na pocz¹tkow¹ ze zmiennych w bloku. Utwórz przypadek testowy w funkcji
 main, który wyœwietla wartoœci z bloku stworzonego przez funkcjê. */
