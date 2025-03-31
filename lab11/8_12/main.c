@@ -9,7 +9,7 @@ float linFuncVal(const float *a, float *const b, const float *x) {
 }
 
 int main() {
-    float a = 2.0, b = 3.0, x = 4.0;
+    float a = 2.0, b = 3.0,  x = 4.0;
 
     float y = linFuncVal(&a, &b, &x);
 
