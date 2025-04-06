@@ -1,8 +1,3 @@
-/* LABY - Napisz funkcjê, która otrzymuje trzy argumenty:
-- dwa wskaŸniki na funkcje z jednym argumentem typu int zwracaj¹ce wartoœæ typu int,
-- dodatni¹ wartoœæ n typu int,
-i zwraca 1, je¿eli otrzymane w argumentach funkcje maj¹ ten sam znak dla wartoœci dla liczb ca³kowitych od 0 do n , a zwraca 0 w przeciwnym wypadku. Stwórz przypadek testowy. */
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -11,7 +6,7 @@ int check(int(*f1)(int), int (*f2)(int), int n){
         exit(-1);
     }
     for(int i=0;i<=n;i++){
-        if (f1(i) != f2(i)){
+        if (f1(i) * f2(i) <=0){
             return 0;
         }
     }
