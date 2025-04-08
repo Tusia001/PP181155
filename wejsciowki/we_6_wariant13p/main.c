@@ -4,8 +4,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
-{
-    printf("Hello world!\n");
+void multiplyByTwo(const float *input, float *output){
+    *output = (*input) * 2;
+}
+
+
+int main() {
+    float liczba = 3.5;
+    float wynik;
+
+    multiplyByTwo(&liczba, &wynik);
+    printf("%.2f\n", wynik);
     return 0;
 }
