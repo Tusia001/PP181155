@@ -1,4 +1,4 @@
-/* skoñczyc Napisz funkcjê shiftRight2, której argumentami s¹ dodatnia liczba ca³kowita n reprezentuj¹ca rozmiar tablicy oraz n-elementowa tablica tab o elementach typu int. Funkcja
+/* skonczone Napisz funkcjê shiftRight2, której argumentami s¹ dodatnia liczba ca³kowita n reprezentuj¹ca rozmiar tablicy oraz n-elementowa tablica tab o elementach typu int. Funkcja
 ta ma przesun¹æ wszystkie elementy tablicy o dwa miejsca w prawo. Elementy, które
 “wypadn¹” poza tablicê, powinny pojawiæ siê na jej pocz¹tku w tej samej kolejnoœci.
 Stwórz przypadek testowy  */
