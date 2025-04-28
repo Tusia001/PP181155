@@ -2,11 +2,36 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <wchar.h>
 
-wStrConcat()
+void wStrConcat(wchar_t nap1[], wchar_t nap2[], wchar_t nap3[]) {
+    int i = 0, j = 0;
 
-int main()
-{
-    printf("Hello world!\n");
+    // kopiujemy nap1
+    while (nap1[i] != L'\0') {
+        nap3[i] = nap1[i];
+        i++;
+    }
+
+    // kopiujemy nap2
+    while (nap2[j] != L'\0') {
+        nap3[i] = nap2[j];
+        i++;
+        j++;
+    }
+
+    nap3[i] = L'\0';
+}
+
+int main() {
+    wchar_t a[] = L"Kolokwium ";
+    wchar_t b[] = L"zdane!";
+    wchar_t wynik[100];
+
+    wStrConcat(a, b, wynik);
+
+    wprintf(L"%ls\n", wynik); // u¿ywamy %ls dla wchar_t!
+
     return 0;
 }
+
