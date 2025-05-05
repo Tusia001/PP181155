@@ -1,26 +1,22 @@
 /*Napisz funkcjê sumMatrix, która dostaje jako argumenty dwie dodatnie liczby ca³kowite n i m oraz dwuwymiarow¹ tablicê o elementach typu int o wymiarach n x m i zwraca jako wartoœæ sumê wartoœci elementów tablicy. Stwórz przypadek testowy dla funkcji. */
 
+
 #include <stdio.h>
 #include <stdlib.h>
 
-int sumMatrix(int n, int m, int *tab) {
-    int suma = 0;
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            suma += *(tab + i * m + j);
+int sumMatrix(int n, int m, int tab[n][m]){
+    int temp=0;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            temp += tab[i][j];
         }
     }
-    return suma;
+    return temp;
 }
 
-int main() {
-    int tab[2][3] = {
-        {1, 2, 3},
-        {4, 5, 6}
-    };
-
-    int wynik = sumMatrix(2, 3, (int *)tab);
-    printf("Suma: %d\n", wynik);
+int main()
+{
+    int tab[2][3] = {{2,-3,4},{1,4,-5}};
+    printf("%d\n", sumMatrix(2,3,tab));
     return 0;
 }
-
