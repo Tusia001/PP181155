@@ -1,4 +1,4 @@
-/*Napisz funkcjê minColIdx, która dostaje jako argumenty dwie dodatnie liczby ca³kowite n i m oraz dwuwymiarow¹ tablicê tablic o elementach typu int o wymiarach n x m. Funkcja ma zwróciæ indeks kolumny, w którym znajduje siê najmniejszy element (w przypadku kilku mo¿liwych indeksów, zwróæ najmniejszy z mo¿liwych). Stwórz przypadek testowy dla funkcji. */
+/* LAB Napisz funkcjê minColIdx, która dostaje jako argumenty dwie dodatnie liczby ca³kowite n i m oraz dwuwymiarow¹ tablicê tablic o elementach typu int o wymiarach n x m. Funkcja ma zwróciæ indeks kolumny, w którym znajduje siê najmniejszy element (w przypadku kilku mo¿liwych indeksów, zwróæ najmniejszy z mo¿liwych). Stwórz przypadek testowy dla funkcji. */
 
 
 #include <stdio.h>
