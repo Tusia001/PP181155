@@ -1,0 +1,1 @@
+/*. LAB Napisz funkcjê transArr, która dostaje jako argumenty dodatni¹ liczbê ca³kowit¹ n i dwuwymiarow¹ kwadratow¹ tablicê tablic o elementach typu int o wymiarach n x m. Funkcja ma transponowaæ elementy tablicy (zamieniæ wiersze na kolumny). Stwórz przypadek testowy dla funkcji. */
