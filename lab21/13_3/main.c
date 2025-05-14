@@ -3,6 +3,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+typedef struct {
+    float width;
+    float height;
+    char *color
+} Rectangle;
+
 int main()
 {
     printf("Hello world!\n");
