@@ -33,7 +33,7 @@ void mileageService(struct Car * p1){
 
 int main()
 {
-    struct Car c1 = initCar("Skoda", 7000);
+    struct Car c1 = initCar("Mazda", 120000);
     showCar(c1);
     mileageService(&c1);
     showCar(c1);
