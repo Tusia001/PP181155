@@ -1,4 +1,6 @@
-/* LAB Napisz funkcjê toUpperNew, która przyjmuje jako argument wskaŸnik do napisu typu const char* i zwraca wskaŸnik do nowego napisu, w którym wszystkie ma³e litery zosta³y zamienione na du¿e. Oryginalna tablica znaków pozostaje niezmieniona. Pamiêtaj o alokacji pamiêci dla nowego napisu. Nie korzystaj ze wbudowanych funkcji jêzyka oprócz operacji wejœcia/wyjœcia i funkcji alokacji pamiêci. Stwórz przypadek testowy dla tej funkcji.*/
+/* LAB Napisz funkcjÄ™ toUpperNew, ktÃ³ra przyjmuje jako argument wskaÅºnik do napisu typu const char* i zwraca wskaÅºnik do nowego napisu, 
+w ktÃ³rym wszystkie maÅ‚e litery zostaÅ‚y zamienione na duÅ¼e. Oryginalna tablica znakÃ³w pozostaje niezmieniona. 
+PamiÄ™taj o alokacji pamiÄ™ci dla nowego napisu. Nie korzystaj ze wbudowanych funkcji jÄ™zyka oprÃ³cz operacji wejÅ›cia/wyjÅ›cia i funkcji alokacji pamiÄ™ci. StwÃ³rz przypadek testowy dla tej funkcji.*/
 
 
 #include <stdio.h>
