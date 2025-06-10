@@ -1,4 +1,5 @@
-/* LAB Napisz funkcjê sumMatrix, która dostaje jako argumenty dwie dodatnie liczby ca³kowite n i m oraz dwuwymiarow¹ tablicê o elementach typu int o wymiarach n x m i zwraca jako wartoœæ sumê wartoœci elementów tablicy. Stwórz przypadek testowy dla funkcji. */
+/* LAB Napisz funkcjÃª sumMatrix, ktÃ³ra dostaje jako argumenty dwie dodatnie liczby caÂ³kowite n i m oraz dwuwymiarowÂ¹ tablicÃª o elementach 
+typu int o wymiarach n x m i zwraca jako wartoÅ“Ã¦ sumÃª wartoÅ“ci elementÃ³w tablicy. StwÃ³rz przypadek testowy dla funkcji. */
 
 
 #include <stdio.h>
