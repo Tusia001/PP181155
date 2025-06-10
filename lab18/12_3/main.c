@@ -1,4 +1,6 @@
-/*lab Napisz funkcjê maxRowIdx, która dostaje jako argumenty dwie dodatnie liczby ca³kowite n i m oraz dwuwymiarow¹ tablicê o elementach typu int o wymiarach n x m, . Funkcja ma zwróciæ indeks wiersza, w którym znajduje siê najwiêkszy element (w przypadku kilku mo¿liwych indeksów, zwróæ najmniejszy z mo¿liwych). Stwórz przypadek testowy dla funkcji. */
+/*lab Napisz funkcjÄ™ maxRowIdx, ktÃ³ra dostaje jako argumenty dwie dodatnie liczby caÅ‚kowite n i m oraz dwuwymiarowÅ¡ 
+tablicÄ™ o elementach typu int o wymiarach n x m, . Funkcja ma zwrÃ³ciÄ‡ indeks wiersza, w ktÃ³rym znajduje siÄ™ najwiÄ™kszy element 
+(w przypadku kilku moÅ¼liwych indeksÃ³w, zwrÃ³Ä‡ najmniejszy z moÅ¼liwych). StwÃ³rz przypadek testowy dla funkcji. */
 
 #include <stdio.h>
 #include <stdlib.h>
