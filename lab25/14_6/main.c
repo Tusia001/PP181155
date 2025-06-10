@@ -1,8 +1,37 @@
+/* LAB Napisz funkcjê printOdd, która przyjmuje jako argument listê z g³ow¹ o elementach typu:
+struct element {
+    int x;
+    struct element * next;
+};
+
+Funkcja ma wyœwietliæ te elementy listy, które s¹ nieparzyste. Stwórz przypadek testowy. */
+
 #include <stdio.h>
 #include <stdlib.h>
 
+struct element {
+    int x;
+    struct element * next;
+};
+
+void printOdd(struct element * list){
+    struct element * ptr = list->next;
+    while(ptr != NULL){
+        if(ptr->x %2 !=0){
+            printf("%d\n", ptr->x);
+        }
+        ptr = ptr->next;
+    }
+}
+
 int main()
 {
-    printf("Hello world!\n");
+    struct element * list = malloc(sizeof(struct element));
+    list->next = malloc(sizeof(struct element));
+    list->next->x = 96;
+    list->next->next = malloc(sizeof(struct element));
+    list->next->next->x = -52;
+    list->next->next->next = NULL;
+    printOdd(list);
     return 0;
 }
