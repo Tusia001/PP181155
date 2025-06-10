@@ -1,5 +1,6 @@
-/*  LAB Napisz funkcjê sumArray, która dostaje jako argumenty dwie dodatnie liczby ca³kowite n i m oraz dwuwymiarow¹ tablicê tablic o elementach typu int o wymiarach
- i zwraca jako wartoœæ sumê wartoœci elementów tablicy. Stwórz przypadek testowy dla funkcji. */
+/*  LAB Napisz funkcjÃª sumArray, ktÃ³ra dostaje jako argumenty dwie dodatnie liczby caÂ³kowite n i m oraz dwuwymiarowÂ¹ 
+tablicÃª tablic o elementach typu int o wymiarach
+ i zwraca jako wartoÅ“Ã¦ sumÃª wartoÅ“ci elementÃ³w tablicy. StwÃ³rz przypadek testowy dla funkcji. */
 
 
 #include <stdio.h>
