@@ -1,4 +1,6 @@
-/*Napisz funkcjê cutStr, która otrzymuje jako argumenty tablicê znaków typu char oraz dwie liczby ca³kowite n i m, i wycina z otrzymanego napisu znaki o indeksach od n do m (przy za³o¿eniu, ¿e n<m). Nie korzystaj ze wbudowanych funkcji jêzyka oprócz operacji wejœcia/wyjœcia. Stwórz przypadek testowy dla tej funkcji. */
+/*Napisz funkcjÄ™ cutStr, ktÃ³ra otrzymuje jako argumenty tablicÄ™ znakÃ³w typu char oraz dwie liczby caÅ‚kowite n i m, 
+i wycina z otrzymanego napisu znaki o indeksach od n do m (przy zaÅ‚oÅ¼eniu, Å¼e n<m). Nie korzystaj ze wbudowanych funkcji jÄ™zyka oprÃ³cz operacji wejÅ›cia/wyjÅ›cia. 
+StwÃ³rz przypadek testowy dla tej funkcji. */
 
 #include <stdio.h>
 #include <stdlib.h>
