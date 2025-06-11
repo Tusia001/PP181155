@@ -1,7 +1,9 @@
-/* EGZAMIN/URYWKI KOLOS/LAB Napisz strukturê Computer z polami manufacturer (tablica znaków d³ugoœci 30) oraz usage_hours (typu int). Nastêpnie napisz dwie funkcje i wywo³aj ka¿d¹ z nich co najmniej jeden raz:
-    a. initComputer - funkcja przyjmuje dwa argumenty: producenta i liczbê godzin u¿ywania, i zwraca wskaŸnik na nowo utworzon¹ strukturê, ustawiaj¹c wartoœci zgodnie z przekazanymi argumentami. Funkcja powinna tak¿e sprawdzaæ, czy nazwa producenta ma co najmniej 2 znaki i liczba godzin jest wiêksza od 0. Jeœli oba warunki nie s¹ spe³nione ³¹cznie, funkcja powinna zwracaæ NULL.
-    b. increaseUsage - funkcja, której argumentem jest wskaŸnik do struktury Computer. Funkcja powinna dodaæ 100 do liczby godzin u¿ytkowania.
-Upewnij siê, ¿e drug¹ funkcjê mo¿esz wywo³aæ w main. */
+/* EGZAMIN/URYWKI KOLOS/LAB Napisz strukturÃª Computer z polami manufacturer (tablica znakÃ³w dÂ³ugoÅ“ci 30) oraz usage_hours (typu int). NastÃªpnie napisz dwie funkcje i wywoÂ³aj kaÂ¿dÂ¹ z nich co najmniej jeden raz:
+    a. initComputer - funkcja przyjmuje dwa argumenty: producenta i liczbÃª godzin uÂ¿ywania, i zwraca wskaÅ¸nik na nowo utworzonÂ¹ strukturÃª, 
+    ustawiajÂ¹c wartoÅ“ci zgodnie z przekazanymi argumentami. Funkcja powinna takÂ¿e sprawdzaÃ¦, czy nazwa producenta ma co najmniej 2 znaki i 
+    liczba godzin jest wiÃªksza od 0. JeÅ“li oba warunki nie sÂ¹ speÂ³nione Â³Â¹cznie, funkcja powinna zwracaÃ¦ NULL.
+    b. increaseUsage - funkcja, ktÃ³rej argumentem jest wskaÅ¸nik do struktury Computer. Funkcja powinna dodaÃ¦ 100 do liczby godzin uÂ¿ytkowania.
+Upewnij siÃª, Â¿e drugÂ¹ funkcjÃª moÂ¿esz wywoÂ³aÃ¦ w main. */
 
 #include <stdio.h>
 #include <stdlib.h>
